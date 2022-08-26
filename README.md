@@ -1,7 +1,7 @@
 # Restaurant-Review-by-NLP
 Project classifying Natural Language Review Dataset of a Restaurant into positive (1) and negative (0).
 Uses Pandas, Natural Toolkit (NLTK) and Sklearn libraries.
-Dataset Collected from Kaggle. Link -https://www.kaggle.com/datasets/d4rklucif3r/restaurant-reviews
+Dataset Collected from Kaggle. Link - https://www.kaggle.com/datasets/d4rklucif3r/restaurant-reviews
 
 Comprehension-
 A csv file is given. The csv file contains reviews and '1' or '0' based on positive and negative reiews as comma seperated values. So we use delimiter as \t. We preprocess the text and remove any punctuations, numbers using the nltk.corpus.stopwords module.
